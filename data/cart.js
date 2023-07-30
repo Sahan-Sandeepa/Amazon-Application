@@ -1,5 +1,7 @@
 export let cart = JSON.parse(localStorage.getItem('cart'));
 
+//provide dummy values to the local storage. since it is checking from the begin the storage
+
 if (!cart) {
     cart = [{
         productId: 'e43638ce-6aa0-4b85-b27f-e1d07eb678c6',
